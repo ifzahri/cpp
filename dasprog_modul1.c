@@ -42,61 +42,82 @@ int main()
     // printf("Area of a Parallelogram : %f\n", par);
     // printf("Area of a Trapezoid     : %f\n", tra);
     // printf("Area of a Circle        : %f\n", cir);
+    // return 0;
     
     
-    float height, weight, reg, ideal, status;
-    int gender;
     
-    printf("BMI\n");
-    printf("===\n");
+    // float height, weight, reg, ideal, status;
+    // int gender;
     
-    printf("Enter your gender (0 for female, 1 for male) : ");
-    scanf("%i", &gender);
-    printf("Enter body height : ");
-    scanf("%f", &height);
-    printf("Enter body weight : ");
-    scanf("%f", &weight);
+    // printf("BMI\n");
+    // printf("===\n");
     
-    if(gender == 1) {
-        reg = 2.3+(weight/30*2.5);
-        ideal = 50.0 + reg;
-        status = ideal/weight;
+    // printf("Enter your gender (0 for female, 1 for male) : ");
+    // scanf("%i", &gender);
+    // printf("Enter body height : ");
+    // scanf("%f", &height);
+    // printf("Enter body weight : ");
+    // scanf("%f", &weight);
+    
+    // if(gender == 1) {
+    //     reg = 2.3+(weight/30*2.5);
+    //     ideal = 50.0 + reg;
+    //     status = ideal/weight;
         
-        printf("you are a male\n");
-        printf("Your ideal weight : %.2f\n", ideal);
-        printf("Your BMI : %.2f\n", status);
+    //     printf("you are a male\n");
+    //     printf("Your ideal weight : %.2f\n", ideal);
+    //     printf("Your BMI : %.2f\n", status);
         
-    }
-    else if(gender == 0){
-        reg = 2.3+(weight/30*2.5);
-        ideal = 45.5 + reg;
-        status = ideal/weight;
+    // }
+    // else if(gender == 0){
+    //     reg = 2.3+(weight/30*2.5);
+    //     ideal = 45.5 + reg;
+    //     status = ideal/weight;
         
-        printf("you are a female");
-        printf("Your ideal weight : %.2f\n", ideal);
-        printf("Your BMI : %.2f\n", status);
-    }
-    else {
-        printf("Data invalid");
-    }
+    //     printf("you are a female");
+    //     printf("Your ideal weight : %.2f\n", ideal);
+    //     printf("Your BMI : %.2f\n", status);
+    // }
+    // else {
+    //     printf("Data invalid");
+    // }
     
-    if (status == 1) {
-        printf("you are ideal\n");
-    }
-    else if (status < 1 && status >= 0.5) {
-        printf("you are overweight\n");
-    }
-    else if (status > 1 && status <= 2) {
-        printf("you are obese\n");
-    }
-    else if (status > 2) {
-        printf("you are underweight\n");
-    }
-    else if (status < 0.5) {
-        printf("you are anorexic\n");
-    }
-    else {
-    printf("Data invalid");
-    }
-    return 0;
+    // if (status == 1) {
+    //     printf("you are ideal\n");
+    // }
+    // else if (status < 1 && status >= 0.5) {
+    //     printf("you are overweight\n");
+    // }
+    // else if (status > 1 && status <= 2) {
+    //     printf("you are obese\n");
+    // }
+    // else if (status > 2) {
+    //     printf("you are underweight\n");
+    // }
+    // else if (status < 0.5) {
+    //     printf("you are anorexic\n");
+    // }
+    // else {
+    // printf("Data invalid");
+    // }
+    // return 0;
+    
+    
+    
+    // printf("Power of 100\n");
+    // printf("============\n");
+    
+    // int i, result;
+    
+    // printf("Enter number : \n");
+    // scanf("%d", &i);
+    
+    // result = pow(100, i);
+    // printf("%d", result);
+
+    // return 0;
+    
+    
+    
+    
 }
