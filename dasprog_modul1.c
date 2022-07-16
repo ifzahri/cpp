@@ -1,12 +1,5 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -119,5 +112,45 @@ int main()
     
     
     
+    // float grade;
+    
+    // printf("GPA Identifier\n");
+    // printf("==============\n");
+    
+    // printf("Enter your grade : ");
+    // scanf("%f", &grade);
+    
+    // if (grade >= 86.0) {
+    //     printf("Your grade is A\n");
+    //     printf("It’s 4.0 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 76.0 && grade <= 85.99) {
+    //     printf("Your grade is AB\n");
+    //     printf("It’s 3.5 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 66.0 && grade <= 75.99) {
+    //     printf("Your grade is B\n");
+    //     printf("It’s 3.0 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 61.0 && grade <= 65.99) {
+    //     printf("Your grade is BC\n");
+    //     printf("It’s 2.5 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 56.0 && grade <= 60.99) {
+    //     printf("Your grade is C\n");
+    //     printf("It’s 2.0 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 41.0 && grade <= 55.99) {
+    //     printf("Your grade is D\n");
+    //     printf("It’s 1.0 of 4.0 Scale Grade\n");
+    // }
+    // else if (grade >= 0.0 && grade <= 40.99) {
+    //     printf("Your grade is E\n");
+    //     printf("It’s 0.0 of 4.0 Scale Grade\n");
+    // }
+    // else {
+    //     printf("Data is invalid");
+    // }
+    // return 0;
     
 }
